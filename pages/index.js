@@ -34,7 +34,7 @@ export default function Blog() {
                         <Post key={post.id} post={post} />
                     ))}
                 </ul>
-                <style jsx>{`
+                <style jsx global>{`
                     h1, a {
                         font - family: 'Arial';
                 }
